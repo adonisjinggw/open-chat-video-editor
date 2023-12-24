@@ -1,0 +1,18 @@
+部署后一直显示J:\3333dddd\002\open-chat-video-editor-main\app>python app.py
+Traceback (most recent call last):
+  File "J:\3333dddd\002\open-chat-video-editor-main\app\app.py", line 7, in <module>
+    from editor.build import build_editor
+  File "J:\3333dddd\002\open-chat-video-editor-main\editor\build.py", line 1, in <module>
+    from generator.image.build import build_image_generator
+  File "J:\3333dddd\002\open-chat-video-editor-main\generator\image\build.py", line 2, in <module>
+    from generator.image.retrieval.build import build_QueryTextEmbedServer,build_FiassKnnServer
+  File "J:\3333dddd\002\open-chat-video-editor-main\generator\image\retrieval\build.py", line 1, in <module>
+    from generator.image.retrieval.models.build import build_image_query_model
+  File "J:\3333dddd\002\open-chat-video-editor-main\generator\image\retrieval\models\build.py", line 2, in <module>
+    from generator.image.retrieval.models.clip_model import ClipTextEmbed, MClipTextEmbed
+  File "J:\3333dddd\002\open-chat-video-editor-main\generator\image\retrieval\models\clip_model.py", line 2, in <module>
+    from multilingual_clip import pt_multilingual_clip
+ModuleNotFoundError: No module named 'multilingual_clip'
+
+J:\3333dddd\002\open-chat-video-editor-main\app>
+请大师告诉我怎么办
